@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data: generated parquet is ignored, except the small real-data panel used by Exp 6
+*.parquet
+!data_real/coinbase_daily_panel_3y.parquet
+
+# Local tooling / OS
+.claude/
+.DS_Store
+.env
+.vscode/
+.idea/
